@@ -1,0 +1,37 @@
+Configuration Commands:
+
+git config --global user.name "Your Name": Set your name for commits.
+git config --global user.email "you@example.com": Set your email for commits.
+
+Repository Commands:
+
+git init: Initialize a new Git repository.
+git clone [url]: Clone an existing repository from a URL.
+Branching Commands:
+
+git branch: List all branches.
+git branch [branch-name]: Create a new branch.
+git checkout [branch-name]: Switch to a branch.
+git checkout -b [branch-name]: Create a new branch and switch to it.
+git merge [branch-name]: Merge a branch into the current branch.
+git branch -d [branch-name]: Delete a branch.
+Staging and Committing Commands:
+
+git status: Check the status of your files in the working directory and staging area.
+git add [file-name]: Add a file to the staging area.
+git add .: Add all files in the current directory to the staging area.
+git commit -m "commit message": Commit staged changes with a message.
+git commit -am "commit message": Add and commit tracked files with a message.
+
+Remote Commands:
+
+git remote add origin [url]: Add a remote repository.
+git remote -v: List all remote repositories.
+git fetch: Fetch changes from the remote repository.
+git pull: Fetch and merge changes from the remote repository into the current branch.
+git push: Push local changes to the remote repository.
+git push -u origin [branch-name]: Push a branch to the remote repository and set it to track the remote branch.
+
+Viewing History Commands:
+
+git log: Show the commit history.

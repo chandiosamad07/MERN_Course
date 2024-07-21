@@ -1,0 +1,72 @@
+/* body{
+    background-image: url('MERN.png');
+    background-repeat: no-repeat;
+} */
+.heading1{
+    border: solid 1px;
+    border-color: red;
+    color: black;
+    /* background-color: blue; */
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#heading2{
+    color: brown;
+    text-align: center;
+    /* background-color: brown; */
+    border: dotted;
+    border-color: red;
+}
+.para{
+    color: red;
+    font-size: larger;
+    font-weight: 700;
+ 
+    border: dashed;
+    border-color: red;
+}
+#m{
+    margin: 25px 50px 75px 100px;
+}
+#padding{
+    border: solid 1px;
+    padding: 100px;
+}
+main{
+    display: flex;
+}
+.con{
+    float: right;
+    width:50%;
+    height: 250px;
+    background: red;
+    margin-right: 200px;
+
+}
+/* .left{
+    float:left;
+    width:50%;
+    height: 250px;
+    background: red;
+    margin: 20px;
+} */
+img{
+    width: 250px;
+    display: block;
+    padding: 20px;
+   
+}
+
+h1{
+    display: inline;
+}
+div{
+    display: inline;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}

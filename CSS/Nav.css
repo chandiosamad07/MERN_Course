@@ -1,0 +1,40 @@
+nav{
+    background-color: brown;
+    height: 50px;
+    line-height: 50px;
+    
+}
+ul {
+    text-decoration: none;
+    height: 25px;
+    
+}
+li {
+    display: inline;
+    padding: 20px;
+    color: white;
+    
+}
+
+footer{
+    position: fixed; 
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: brown;
+    height: 50px; /* Adjusted height */
+    line-height: 50px; /* Vertically center the text */
+}
+
+#left{
+    margin-top: 25px;
+    width: 300px;
+    height: 300px;
+}
+#right{
+    float: right;
+    margin-top: 25px;
+    width: 300px;
+    height: 300px;
+}
