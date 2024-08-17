@@ -5,12 +5,23 @@ import Message from "./Components/Message";
 import Counter from "./Components/Counter";
 import EventHandling from "./Components/EventHandling";
 import ConditionalRendering from "./Components/ConditionalRendering";
+import Toggle from "./Components/Toggle";
+import Namelist from "./Components/Namelist";
+import CDM from "./LifeCycle/CDM";
+import CWU from "./LifeCycle/CWU";
+import CDU from "./LifeCycle/CDU";
+import Form from "./Components/Form";
 
 function App() {
   return (
     <div className="App">
-
-      <ConditionalRendering loggedin = {false}/>
+      <Form />
+      {/* <CDU /> */}
+      {/* <CWU /> */}
+      {/* <CDM /> */}
+      {/* <Namelist /> */}
+{/* <Toggle /> */}
+      {/* <ConditionalRendering loggedin = {false}/> */}
       {/* <EventHandling /> */}
       {/* <Counter /> */}
        {/* <Greet Fname="Abdul" lname="Samad"/> */}
