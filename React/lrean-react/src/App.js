@@ -16,13 +16,15 @@ import Timer from "./Hooks/Timer";
 import TimerStop from "./Hooks/TimerStop";
 import ComponetC from "./Hooks/Context/ComponetC";
 import React from 'react';
+import API from "./Components/API";
 export const useContext = React.createContext()
 function App() {
   return (
     <div className="App">
-    <useContext.Provider value={"Abdul"}>
+      <API />
+    {/* <useContext.Provider value={"Abdul"}>
       <ComponetC />
-      </useContext.Provider>
+      </useContext.Provider> */}
       {/* <TimerStop />
       <Timer /> */}
       {/* <CounterH /> */}
