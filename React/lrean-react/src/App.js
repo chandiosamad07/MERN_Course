@@ -12,11 +12,20 @@ import CWU from "./LifeCycle/CWU";
 import CDU from "./LifeCycle/CDU";
 import Form from "./Components/Form";
 import CounterH from "./Hooks/Counter";
-
+import Timer from "./Hooks/Timer";
+import TimerStop from "./Hooks/TimerStop";
+import ComponetC from "./Hooks/Context/ComponetC";
+import React from 'react';
+export const useContext = React.createContext()
 function App() {
   return (
     <div className="App">
-      <CounterH />
+    <useContext.Provider value={"Abdul"}>
+      <ComponetC />
+      </useContext.Provider>
+      {/* <TimerStop />
+      <Timer /> */}
+      {/* <CounterH /> */}
       {/* <Form /> */}
       {/* <CDU /> */}
       {/* <CWU /> */}
