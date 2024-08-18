@@ -11,11 +11,13 @@ import CDM from "./LifeCycle/CDM";
 import CWU from "./LifeCycle/CWU";
 import CDU from "./LifeCycle/CDU";
 import Form from "./Components/Form";
+import CounterH from "./Hooks/Counter";
 
 function App() {
   return (
     <div className="App">
-      <Form />
+      <CounterH />
+      {/* <Form /> */}
       {/* <CDU /> */}
       {/* <CWU /> */}
       {/* <CDM /> */}
