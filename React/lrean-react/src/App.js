@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import { Route,Routes } from "react-router-dom";
 import {Greet,Morning}  from "./Components/Greet";
 import Message from "./Components/Message";
 import Counter from "./Components/Counter";
@@ -17,11 +18,26 @@ import TimerStop from "./Hooks/TimerStop";
 import ComponetC from "./Hooks/Context/ComponetC";
 import React from 'react';
 import API from "./Components/API";
+import Nav from "./Nav/Nav";
+import Home from "./Nav/Home";
+import About from "./Nav/About";
+import Contact from "./Nav/Contact";
+import APIC from "./Components/APIC";
 export const useContext = React.createContext()
+
+
 function App() {
   return (
     <div className="App">
-      <API />
+      {/* <Routes>
+        <Route path="/"></Route>
+        <Route path="/about" element={<About/> }></Route>
+        <Route path="/contact" element={<Contact/> }></Route>
+      </Routes> */}
+      <APIC />
+
+      {/* <Nav /> */}
+      {/* <API /> */}
     {/* <useContext.Provider value={"Abdul"}>
       <ComponetC />
       </useContext.Provider> */}
