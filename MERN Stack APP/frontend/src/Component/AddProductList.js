@@ -4,7 +4,7 @@ const AddProductList = () => {
     const [name, setName] = useState('');
     const [Company, setCompany] = useState('');
     const [error, setError] = useState('');
-    const [refresh, setRefresh] = useState(false); // Add a state to trigger re-render
+    const [refresh, setRefresh] = useState(false); 
 
     const addProduct = async (event) => {
         event.preventDefault();
