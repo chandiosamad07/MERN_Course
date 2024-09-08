@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams, Link } from 'react-router-dom';
+import AddProductList from './AddProductList';
 
 const ProductList = () => {
     const [products, setProducts] = useState([]);
@@ -41,6 +42,9 @@ const ProductList = () => {
     };
     
     return (
+        <>
+     
+       <AddProductList />
         <div className='product-list'>
             <h1>Product List</h1>
             <ul>
@@ -66,6 +70,7 @@ const ProductList = () => {
                 <p>No products found.</p>
             )}
         </div>
+        </>
     );
 };
 
